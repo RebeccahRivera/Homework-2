@@ -1,0 +1,58 @@
+body {
+    margin: 0; /*removes default browser spacing*/
+    font-family: 'Times New Roman', 'Times New Roman', Times, serif; /*fonts used*/
+    font-size: 18px; /*sets base font size*/
+    background-color:rgb(87, 78, 63);
+    
+}
+
+header {
+    padding: 30px; /*spacing inside header*/
+    text-align: center; /*center the header*/
+    background-color: antiquewhite;
+    border-bottom: 4px solid rgb(147, 140, 128);
+}
+
+h1, h2 {
+    margin: 0; /*removes extra spacing*/
+}
+
+section {
+    margin-bottom: 25px; /*space between sections*/
+}
+
+.container {
+    display: flex; /*places columns next to each other*/
+}
+
+.left {
+    width: 35%; /*width of left column*/
+    padding: 30px; /*spacing in left column*/
+    background-color: bisque;
+}
+
+.right {
+    width: 65%; /*width of right column*/
+    padding: 40px; /*spacing in right column*/
+    background-color: rgb(172, 153, 128);
+}
+
+.headerImage, .allImages {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /*makes image circular*/
+    object-fit: cover; /*stops image from stretching*/
+    background-color: azure;
+    border: 4px double aliceblue; /*double border around images*/
+
+}
+
+.site-footer {
+    text-align: center; /*align to the center*/
+    padding: 15px; /*spacing in footer*/
+    background-color: antiquewhite;
+}
+
+a {
+    font-size: 25px; /*font size of link*/
+}
